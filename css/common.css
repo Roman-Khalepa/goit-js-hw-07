@@ -12,3 +12,19 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: au;
+}
